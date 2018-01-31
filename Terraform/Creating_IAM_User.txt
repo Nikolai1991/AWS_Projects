@@ -1,0 +1,8 @@
+# creat an IAM User
+1. user name - <username>
+2. password - <password>
+3. access type - Programmatic access  
+
+# save the Access and Secret Key ID!!
+1. Access key ID - <***>
+2. Secret access key - <***>

@@ -1,0 +1,18 @@
+# 1.  testing what infrastructure would be built based on our terraform files
+terraform plan
+
+# 2.  Update the configuration file you have prepared:
+terraform init 
+
+# 3.  Apply the changes:
+terraform apply
+
+# 4. destroy the infrastructure
+terraform destroy
+
+# 5. keeping the changes in an out file:
+terraform plan -out changes.terraform
+
+# 6. then only apply those changes to the indrastructure
+terraform apply changes.terraform
+rm changes.terraform
