@@ -4,8 +4,12 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "WebApp" {
   ami           = "ami-97785bed"
   instance_type = "t2.micro"
+  key_name		= "TerraKey"
+  tags {
+    Name = "WebApp"
+  }
 }
 
