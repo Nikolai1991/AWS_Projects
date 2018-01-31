@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "WebApp" {
   ami           = "ami-97785bed"
   instance_type = "t2.micro"
-  key_name		 = "TerraKey"
+  key_name		  = "TerraKey"
   tags {
     Name = "WebApp"
   }
