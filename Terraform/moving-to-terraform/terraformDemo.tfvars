@@ -1,0 +1,11 @@
+environment = "terraformDemo"
+aws_region="us-east-1"
+availability_zones = "us-east-1a,us-east-1c"
+vpc_id = "vpc-ebfd1c90"
+subnet_ids = "subnet-4e671b61,subnet-550b7b08"
+app_instance_type = "t2.micro"
+asg_min = "1"
+asg_max = "2"
+asg_desired = "1"
+aws_ssh_key = "mykey"
+
